@@ -285,7 +285,7 @@ Iteration is a process implying iterables (implementing the __iter__() method) a
 More about it in this article about [how does the for loop work](http://effbot.org/zone/python-for-statement.htm).
 
 # 理解迭代(iteration)内部机制
-迭代是对可迭代对象实现了 \_\_iter\_\_()方法 和迭代器实现 \_\_next\_\_()方法 的一个操作过程。 可迭代对象是任何你可以从中获取迭代器的对象。 迭代器是可以让你对可迭代对象进行迭代的对象。
+迭代是对实现可迭代对象(实现了 \_\_iter\_\_()方法)和迭代器(实现 \_\_next\_\_()方法)的一个操作过程。 可迭代对象是任何你可以从中获取迭代器的对象。 迭代器是可以让你对可迭代对象进行迭代的对象。
 
 想要继续了解可以参看这篇文章[how does the for loop work](http://effbot.org/zone/python-for-statement.htm)。
 
