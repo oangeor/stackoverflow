@@ -205,7 +205,7 @@ $100
 
 The itertools module contains special functions to manipulate iterables. Ever wish to duplicate a generator? Chain two generators? Group values in a nested list with a one liner? Map / Zip without creating another list?
 
-Then just import itertools.
+Then just ```import itertools```.
 
 An example? Let's see the possible orders of arrival for a 4 horse race:
 
@@ -241,8 +241,9 @@ An example? Let's see the possible orders of arrival for a 4 horse race:
  (4, 3, 2, 1)]
 ```
 #Itertools, 你最好的朋友
-itertools 模块里包含很多特殊的函数来控制可迭代对象。想过复制一个生成器吗？链接两个生成器？一行代码就把嵌套列表分组？ Map/Zip 不需要额外创建额外的列表？
-
+itertools 模块里包含很多特殊的函数来控制可迭代对象。想过复制一个生成器吗？链接两个生成器？一行代码就把嵌套列表分组？ Map/Zip 不需要额外创建额外的列表？  
+只要 ```import itertools```就行了。  
+需要个例子？那好我们来看看四匹马排名顺序的所有可能组合。  
 ```python
 >>> horses = [1, 2, 3, 4]
 >>> races = itertools.permutations(horses)
